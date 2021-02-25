@@ -111,7 +111,7 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://far1mountain.github.io/
+url: https://doc.gammadelta.tk/
 baseurl: /
 
 
@@ -120,9 +120,10 @@ github: [metadata]
 plugins: ['jekyll-scholar']
 
 scholar:
-  style: modern-language-association
+  style: ieee
   source: /_bibliography
   bibliography: bibliography.bib
+  bibliography_template: bib
 
 
 
