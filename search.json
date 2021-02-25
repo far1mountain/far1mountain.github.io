@@ -4,10 +4,43 @@
 
 
 {
-"title": "",
+"title": "细胞改造技术汇总",
 "tags": "",
 "keywords": "",
-"url": "bibliography.html",
+"url": "CAR_gdt.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "CAR-T",
+"tags": "",
+"keywords": "",
+"url": "CAR_gdt.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "TCR-T",
+"tags": "",
+"keywords": "",
+"url": "TCR_gdt.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "adicet bio",
+"tags": "",
+"keywords": "",
+"url": "adicet_bio.html",
 "summary": ""
 }
 ,
@@ -17,10 +50,21 @@
 
 
 {
-"title": "细胞改造技术汇总",
+"title": "Gadeta",
 "tags": "",
 "keywords": "",
-"url": "gdt_engineering.html",
+"url": "gadeta.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "Gammadelta Therapeutics",
+"tags": "",
+"keywords": "",
+"url": "gdt_therapeutics.html",
 "summary": ""
 }
 ,
@@ -32,6 +76,17 @@
 "tags": "",
 "keywords": "",
 "url": "index.html",
+"summary": ""
+}
+,
+
+
+
+{
+"title": "LAVA Therapeutics",
+"tags": "",
+"keywords": "",
+"url": "lava_therapeutics.html",
 "summary": ""
 }
 ,
@@ -96,6 +151,17 @@
 
 
 
+
+
+
+{
+"title": "TC biopharm",
+"tags": "",
+"keywords": "",
+"url": "tc_biopharm.html",
+"summary": ""
+}
+,
 
 
 

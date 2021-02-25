@@ -26,7 +26,25 @@
   
   
   <url>
-    <loc>http://localhost:4000/bibliography.html</loc>
+    <loc>http://localhost:4000/CAR_gdt.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/CAR_gdt.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/TCR_gdt.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/adicet_bio.html</loc>
   </url>
   
   
@@ -34,13 +52,25 @@
   
   
   <url>
-    <loc>http://localhost:4000/gdt_engineering.html</loc>
+    <loc>http://localhost:4000/gadeta.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/gdt_therapeutics.html</loc>
   </url>
   
   
   
   <url>
     <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/lava_therapeutics.html</loc>
   </url>
   
   
@@ -88,6 +118,12 @@
   
   
   
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/tc_biopharm.html</loc>
+  </url>
   
   
   
