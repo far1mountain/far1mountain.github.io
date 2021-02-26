@@ -120,7 +120,7 @@ github: [metadata]
 plugins: ['jekyll-scholar']
 
 scholar:
-  style: ieee
+  style: apa
   source: /_bibliography
   bibliography: bibliography.bib
   bibliography_template: bib

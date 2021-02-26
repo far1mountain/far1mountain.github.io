@@ -26,7 +26,7 @@ gdTCR转染的abT细胞，用anti-abTCR的抗体纯化去除含有abTCR的abT细
 他们最新的研究{% cite janssen__2020 %}发现，gdT细胞的gd链组合，可以识别不同的肿瘤细胞类型，且不依赖其他协同受体。但肿瘤浸润gdT中，装载有效识别肿瘤TCR的gdT比例低，利用识别肿瘤的gdTCR制作成TEGs，将成为新的肿瘤治疗手段。
 
 
-## 其他TCR
+## 其他
 
 iNKT细胞的abTCR识别CD1d，且在人类中序列保守，将其转染到γδT细胞中，这样的gdT细胞可以和NKT及gdT两种细胞相关的配体反应，且转染后不会与自身的TCR的ab链发生错配，在细胞实验中，与普通gdT相比，表现出更强的肿瘤细胞杀伤能力。{% cite shimizu_transfer_2015%}
 
