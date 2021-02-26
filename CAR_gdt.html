@@ -293,34 +293,116 @@ $('#toc').on('click', 'a', function() {
 
    <h2 id="第一代car-t">第一代CAR-T</h2>
 
-<p>First generation CARs are composed of an extracellular binding domain, a hinge region, a transmembrane domain, and one or more intracellular signaling domains.</p>
+<p>第一代CAR-T 结构为：胞外区（scFv）···· 铰链区 ···· 跨膜区 ···· 胞内信号传导区（CD3ζ）。</p>
 
-<p>GD2 CAR</p>
+<p>在<a class="citation" href="#rischer_human_2004">(Rischer et al., 2004)</a>的研究中，构建了两种CAR-T，胞外区分别来源于针对CD19的单抗（CD19ζ）和针对GD2（神经母细胞瘤）的单抗。</p>
+
+<p>在细胞实验中，CAR-T与常规gdT对比，产生更多的细胞因子，具有更强的肿瘤细胞杀伤能力。</p>
 
 <h2 id="第二代car-t">第二代CAR-T</h2>
 
-<p>Second generation CARs add a co‐stimulatory domain, like CD28 or 4‐1BB. The involvement of these intracellular signaling domains improve T cell proliferation, cytokine secretion, resistance to apoptosis, and in vivo persistence</p>
+<p>第二代CAR-T 结构为：胞外区（scFv）···· 铰链区 ···· 跨膜区 ···· 胞内信号传导区（CD3ζ + 协同刺激区，如CD28或4-1BB）。增加了协同刺激区，借此增加T细胞的增殖，细胞因子分泌，延长细胞的存活时间。</p>
+
+<p>只要存在scFv识别的相关抗原，CAR-T就会发挥作用，如果正常细胞中过表达了相关抗原，也会受到CAR-T的攻击。为了解决这一问题，将双重激活信号分开：</p>
+
+<ul>
+  <li>信号1（CCR）：胞外（针对肿瘤特异抗原，GD2，CD33，ErbB2）···· 胞内（协同刺激信号，DAP10，CD28）<a class="citation" href="#fisher_engineering_2018">(Fisher &amp; Anderson, 2018; Fisher et al., 2019)</a></li>
+  <li>信号2（TCR）：胞外（gdTCR）···· 胞内（CD3ζ）</li>
+</ul>
+
+<p>CCR是TC biopharm的主要技术。</p>
 
 <h2 id="第三代car-t">第三代CAR-T</h2>
 
-<p>Third generation CARs combine multiple co-stimulatory domains, such as CD28-41BB or CD28-OX40, to augment T cell activity. Preclinical data show the third-generation CARs exhibit improved effector functions and better in vivo persistence as compared to second‐generation CARs</p>
+<p>第三代CAR-T的胞内信号传导区包括多个协同结构域，如CD28-41BB或CD28-OX40，临床前结果显示，与第二代CAR相比，第三代CAR效应更强，体内存活更久。</p>
+
+<p>在常规的CAR-T研究<a class="citation" href="#quintarelli_choice_2018">(Quintarelli et al., 2018)</a>中，（GD2····CD28····4-1BB····ζ）这种第三代CAR优于CD28-OX40，在以下方面有改善：</p>
+<ul>
+  <li>T-cell exhaustion,</li>
+  <li>basal T-cell activation,</li>
+  <li>in vivo tumor control</li>
+  <li>T-cell persistence.</li>
+</ul>
+
+<p>随后，他们也将这种CAR应用在gdT细胞中<a class="citation" href="#polito_universal_2019">(Polito et al., 2019)</a>，这种改造显著提升了gdT细胞的抗肿瘤能力。</p>
 
 <h2 id="第四代car-t">第四代CAR-T</h2>
 
-<p>Fourth generation CARs (also known as TRUCKs or armored CARs) further add factors that enhance T cell expansion, persistence, and anti‐tumoral activity. This can include cytokines, such is IL-2, IL-5, IL-12 and co‐stimulatory ligands.</p>
+<p>第四代CAR-T进一步加入了增强T细胞功能的因素，如细胞因子（IL-2，IL-5,IL-12）及协同刺激配体等。</p>
+
+<p>这类CAR在gdT中的应用需要进一步查询。</p>
 
 <h2 id="super-car">SUPER CAR</h2>
 
-<p>Multiple mechanisms can be deployed to finely regulate the activity of SUPRA CAR, which limits overactivation. In contrast to the traditional CAR design, SUPRA CAR allows targeting of multiple antigens without further genetic modification of a person’s immune cells</p>
+<p>SUPER CAR将常规CAR的scFv独立出来，结构为：</p>
 
-<h2 id="ccr">CCR？</h2>
+<p>scFv····zipA····zipB····胞内结构域</p>
+
+<p>这种设计的好处是，一种改造好的T细胞，可以通过zip链接到不同的scFv上，识别不同的表位。<a class="citation" href="#cho_universal_2018">(Cho et al., 2018)</a></p>
+
+<p>SUPER CAR在gdT中的应用需要进一步查询。</p>
 
 <h2 id="其他">其他</h2>
 
-<h3 id="抗药性">抗药性</h3>
+<p>替莫唑胺（TMZ）是治疗GB的常用化疗药物，TMZ可以增加肿瘤细胞NKG2D配体的表达，使肿瘤细胞更易于受到gdT细胞的识别和杀伤，但TMZ也会杀伤gdT细胞，因此将抗药基因转染到gdT细胞中，将这种改造的gdT和TMZ联用，增强了gdT的抗瘤活性。<a class="citation" href="#jr_engineered_2013">(Jr et al., 2013)</a></p>
+
+<p>IN8bio公司利用这种策略，开展了临床试验<a class="citation" href="#md_phase_2020">(MD, 2020)</a>。</p>
 
 <p><strong>参考文献</strong></p>
-<ol class="bibliography"></ol>
+<ol class="bibliography"><li><div class="text-justify">
+    <span id="rischer_human_2004">Rischer, M., Pscherer, S., Duwe, S., Vormoor, J., Jürgens, H., &amp; Rossig, C. (2004). Human Gammadelta T Cells as Mediators of Chimaeric-Receptor Redirected Anti-Tumour Immunity. <i>British Journal of Haematology</i>, <i>126</i>(4), 583–592. https://doi.org/10.1111/j.1365-2141.2004.05077.x</span>
+    
+    <span><a href="http://doi.org/10.1111/j.1365-2141.2004.05077.x" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="fisher_engineering_2018">Fisher, J., &amp; Anderson, J. (2018). Engineering Approaches in Human Gamma Delta T Cells for Cancer Immunotherapy. <i>Frontiers in Immunology</i>, <i>9</i>, 1409. https://doi.org/10.3389/fimmu.2018.01409</span>
+    
+    <span><a href="http://doi.org/10.3389/fimmu.2018.01409" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="fisher_engineering_2019">Fisher, J., Sharma, R., Don, D. W., Barisa, M., Hurtado, M. O., Abramowski, P., Porter, L., Day, W., Borea, R., Inglott, S., Anderson, J., &amp; Pe’er, D. (2019). Engineering γ\deltaT Cells Limits Tonic Signaling Associated with Chimeric Antigen Receptors. <i>Science Signaling</i>, <i>12</i>(598). https://doi.org/10.1126/scisignal.aax1872</span>
+    
+    <span><a href="http://doi.org/10.1126/scisignal.aax1872" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="quintarelli_choice_2018">Quintarelli, C., Orlando, D., Boffa, I., Guercio, M., Polito, V. A., Petretto, A., Lavarello, C., Sinibaldi, M., Weber, G., Del Bufalo, F., Giorda, E., Scarsella, M., Petrini, S., Pagliara, D., Locatelli, F., De Angelis, B., &amp; Caruana, I. (2018). Choice of Costimulatory Domains and of Cytokines Determines CAR T-Cell Activity in Neuroblastoma. <i>Oncoimmunology</i>, <i>7</i>(6). https://doi.org/10.1080/2162402X.2018.1433518</span>
+    
+    <span><a href="http://doi.org/10.1080/2162402X.2018.1433518" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="polito_universal_2019">Polito, V. A., Cristantielli, R., Weber, G., Del Bufalo, F., Belardinilli, T., Arnone, C. M., Petretto, A., Antonucci, L., Giorda, E., Tumino, N., Pitisci, A., De Angelis, B., Quintarelli, C., Locatelli, F., &amp; Caruana, I. (2019). Universal Ready-to-Use Immunotherapeutic Approach for the Treatment of Cancer: Expanded and Activated Polyclonal Γδ Memory T Cells. <i>Frontiers in Immunology</i>, <i>10</i>. https://doi.org/10.3389/fimmu.2019.02717</span>
+    
+    <span><a href="http://doi.org/10.3389/fimmu.2019.02717" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="cho_universal_2018">Cho, J. H., Collins, J. J., &amp; Wong, W. W. (2018). Universal Chimeric Antigen Receptors for Multiplexed and Logical Control of T Cell Responses. <i>Cell</i>, <i>173</i>(6), 1426–1438.e11. https://doi.org/10.1016/j.cell.2018.03.038</span>
+    
+    <span><a href="http://doi.org/10.1016/j.cell.2018.03.038" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="jr_engineered_2013">Jr, L. S. L., Bowersock, J., Dasgupta, A., Gillespie, G. Y., Su, Y., Johnson, A., &amp; Spencer, H. T. (2013). Engineered Drug Resistant Γδ T Cells Kill Glioblastoma Cell Lines during a Chemotherapy Challenge: A Strategy for Combining Chemo- and Immunotherapy. <i>PLOS ONE</i>, <i>8</i>(1), e51805. https://doi.org/10.1371/journal.pone.0051805</span>
+    
+    <span><a href="http://doi.org/10.1371/journal.pone.0051805" target="_blank">点击查看</a></span>
+    
+</div>
+</li>
+<li><div class="text-justify">
+    <span id="md_phase_2020">MD, L. B. N. (2020). <i>A Phase I Study of Drug Resistant Immunotherapy (DRI) With Activated, Gene Modified Γδ T Cells in Patients With Newly Diagnosed Glioblastoma Multiforme Receiving Maintenance Temozolomide Chemotherapy</i> (Clinical Trial Registration No.NCT04165941; Number NCT04165941). clinicaltrials.gov.</span>
+    
+</div>
+</li></ol>
 
 
 
@@ -339,7 +421,7 @@ $('#toc').on('click', 'a', function() {
             <div class="row">
                 <div class="col-lg-12 footer">
                &copy;2021 gdT. All rights reserved. <br />
- Site last generated: Feb 25, 2021 <br />
+ Site last generated: Feb 26, 2021 <br />
 <p><img src="images/company_logo.png" alt="Company logo"/></p>
                 </div>
             </div>
